@@ -1,0 +1,29 @@
+sudo nano /usr/local/hbase/conf/hbase-site.xml
+
+
+versi 2.5.9
+
+  <property>
+    <name>hbase.rootdir</name>
+    <value>hdfs://h-primary:9000/hbase</value>
+  </property>
+  <property>
+    <name>hbase.cluster.distributed</name>
+    <value>true</value>
+  </property>
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo chmod 777 /var
+sudo chmod 777 /var/
+sudo chmod 777 /var/*

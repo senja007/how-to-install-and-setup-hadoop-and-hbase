@@ -1,0 +1,4 @@
+sudo nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
+
+
+versi 3.3.6

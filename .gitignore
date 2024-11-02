@@ -1,9 +1,4 @@
-# Ignore everything
-*
-
-# But not these files...
-!.gitignore
-!/hbase_primary
-!template.latex
-# etc...
-
+/id.txt
+/mm.md
+/setting_ip_proxmox.md
+/userinvm.md

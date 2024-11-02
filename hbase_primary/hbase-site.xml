@@ -1,0 +1,29 @@
+sudo nano /usr/local/hbase/conf/hbase-site.xml
+
+
+versi 2.5.9
+
+  <property>
+    <name>hbase.rootdir</name>
+    <value>hdfs://h-primary:9000/hbase</value>
+  </property>
+  <property>
+    <name>hbase.cluster.distributed</name>
+    <value>true</value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.property.dataDir</name>
+    <value>/var/lib/zookeeper</value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>zookeeper1</value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.property.clientPort</name>
+    <value>2181</value>
+  </property>
+  <property>
+    <name>hbase.master</name>
+    <value>h-primary:16020</value>
+  </property>

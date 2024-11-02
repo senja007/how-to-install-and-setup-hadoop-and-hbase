@@ -1,0 +1,32 @@
+sudo nano /usr/local/hadoop/etc/hadoop/core-site.xml
+
+
+versi 3.3.6
+
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://h-primary:9000</value>
+    </property>
+
+    <property>
+        <name>hadoop.http.staticuser.user</name>
+        <value>h-user</value>
+    </property>
+
+
+
+    coba custom port
+
+
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://h-primary:31526</value>
+    </property>
+
+    <property>
+        <name>hadoop.http.staticuser.user</name>
+        <value>h-user</value>
+    </property>
+
+
+
